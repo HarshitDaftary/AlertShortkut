@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE851D31183BC80D00A7BD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D30183BC80D00A7BD27 /* Foundation.framework */; };
+		EE851D33183BC80D00A7BD27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D32183BC80D00A7BD27 /* CoreGraphics.framework */; };
+		EE851D35183BC80D00A7BD27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D34183BC80D00A7BD27 /* UIKit.framework */; };
+		EE851D3B183BC80D00A7BD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE851D39183BC80D00A7BD27 /* InfoPlist.strings */; };
+		EE851D3D183BC80D00A7BD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D3C183BC80D00A7BD27 /* main.m */; };
+		EE851D41183BC80D00A7BD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D40183BC80D00A7BD27 /* AppDelegate.m */; };
+		EE851D44183BC80E00A7BD27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE851D42183BC80E00A7BD27 /* Main.storyboard */; };
+		EE851D47183BC80E00A7BD27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D46183BC80E00A7BD27 /* ViewController.m */; };
+		EE851D49183BC80E00A7BD27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE851D48183BC80E00A7BD27 /* Images.xcassets */; };
+		EE851D50183BC80E00A7BD27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D4F183BC80E00A7BD27 /* XCTest.framework */; };
+		EE851D51183BC80E00A7BD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D30183BC80D00A7BD27 /* Foundation.framework */; };
+		EE851D52183BC80E00A7BD27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D34183BC80D00A7BD27 /* UIKit.framework */; };
+		EE851D5A183BC80F00A7BD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE851D58183BC80F00A7BD27 /* InfoPlist.strings */; };
+		EE851D5C183BC80F00A7BD27 /* AlertShortkutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D5B183BC80F00A7BD27 /* AlertShortkutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE851D53183BC80E00A7BD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE851D25183BC80D00A7BD27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE851D2C183BC80D00A7BD27;
+			remoteInfo = AlertShortkut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE851D2D183BC80D00A7BD27 /* AlertShortkut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertShortkut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE851D30183BC80D00A7BD27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE851D32183BC80D00A7BD27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE851D34183BC80D00A7BD27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE851D38183BC80D00A7BD27 /* AlertShortkut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertShortkut-Info.plist"; sourceTree = "<group>"; };
+		EE851D3A183BC80D00A7BD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE851D3C183BC80D00A7BD27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE851D3E183BC80D00A7BD27 /* AlertShortkut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertShortkut-Prefix.pch"; sourceTree = "<group>"; };
+		EE851D3F183BC80D00A7BD27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE851D40183BC80D00A7BD27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE851D43183BC80E00A7BD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE851D45183BC80E00A7BD27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE851D46183BC80E00A7BD27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE851D48183BC80E00A7BD27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE851D4E183BC80E00A7BD27 /* AlertShortkutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertShortkutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE851D4F183BC80E00A7BD27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE851D57183BC80F00A7BD27 /* AlertShortkutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertShortkutTests-Info.plist"; sourceTree = "<group>"; };
+		EE851D59183BC80F00A7BD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE851D5B183BC80F00A7BD27 /* AlertShortkutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertShortkutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE851D2A183BC80D00A7BD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D33183BC80D00A7BD27 /* CoreGraphics.framework in Frameworks */,
+				EE851D35183BC80D00A7BD27 /* UIKit.framework in Frameworks */,
+				EE851D31183BC80D00A7BD27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE851D4B183BC80E00A7BD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D50183BC80E00A7BD27 /* XCTest.framework in Frameworks */,
+				EE851D52183BC80E00A7BD27 /* UIKit.framework in Frameworks */,
+				EE851D51183BC80E00A7BD27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE851D24183BC80C00A7BD27 = {
+			isa = PBXGroup;
+			children = (
+				EE851D36183BC80D00A7BD27 /* AlertShortkut */,
+				EE851D55183BC80E00A7BD27 /* AlertShortkutTests */,
+				EE851D2F183BC80D00A7BD27 /* Frameworks */,
+				EE851D2E183BC80D00A7BD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE851D2E183BC80D00A7BD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D2D183BC80D00A7BD27 /* AlertShortkut.app */,
+				EE851D4E183BC80E00A7BD27 /* AlertShortkutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE851D2F183BC80D00A7BD27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D30183BC80D00A7BD27 /* Foundation.framework */,
+				EE851D32183BC80D00A7BD27 /* CoreGraphics.framework */,
+				EE851D34183BC80D00A7BD27 /* UIKit.framework */,
+				EE851D4F183BC80E00A7BD27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE851D36183BC80D00A7BD27 /* AlertShortkut */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D3F183BC80D00A7BD27 /* AppDelegate.h */,
+				EE851D40183BC80D00A7BD27 /* AppDelegate.m */,
+				EE851D42183BC80E00A7BD27 /* Main.storyboard */,
+				EE851D45183BC80E00A7BD27 /* ViewController.h */,
+				EE851D46183BC80E00A7BD27 /* ViewController.m */,
+				EE851D48183BC80E00A7BD27 /* Images.xcassets */,
+				EE851D37183BC80D00A7BD27 /* Supporting Files */,
+			);
+			path = AlertShortkut;
+			sourceTree = "<group>";
+		};
+		EE851D37183BC80D00A7BD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D38183BC80D00A7BD27 /* AlertShortkut-Info.plist */,
+				EE851D39183BC80D00A7BD27 /* InfoPlist.strings */,
+				EE851D3C183BC80D00A7BD27 /* main.m */,
+				EE851D3E183BC80D00A7BD27 /* AlertShortkut-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE851D55183BC80E00A7BD27 /* AlertShortkutTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D5B183BC80F00A7BD27 /* AlertShortkutTests.m */,
+				EE851D56183BC80F00A7BD27 /* Supporting Files */,
+			);
+			path = AlertShortkutTests;
+			sourceTree = "<group>";
+		};
+		EE851D56183BC80F00A7BD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE851D57183BC80F00A7BD27 /* AlertShortkutTests-Info.plist */,
+				EE851D58183BC80F00A7BD27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE851D2C183BC80D00A7BD27 /* AlertShortkut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE851D5F183BC80F00A7BD27 /* Build configuration list for PBXNativeTarget "AlertShortkut" */;
+			buildPhases = (
+				EE851D29183BC80D00A7BD27 /* Sources */,
+				EE851D2A183BC80D00A7BD27 /* Frameworks */,
+				EE851D2B183BC80D00A7BD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertShortkut;
+			productName = AlertShortkut;
+			productReference = EE851D2D183BC80D00A7BD27 /* AlertShortkut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE851D4D183BC80E00A7BD27 /* AlertShortkutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE851D62183BC80F00A7BD27 /* Build configuration list for PBXNativeTarget "AlertShortkutTests" */;
+			buildPhases = (
+				EE851D4A183BC80E00A7BD27 /* Sources */,
+				EE851D4B183BC80E00A7BD27 /* Frameworks */,
+				EE851D4C183BC80E00A7BD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE851D54183BC80E00A7BD27 /* PBXTargetDependency */,
+			);
+			name = AlertShortkutTests;
+			productName = AlertShortkutTests;
+			productReference = EE851D4E183BC80E00A7BD27 /* AlertShortkutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE851D25183BC80D00A7BD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Logic Engine";
+				TargetAttributes = {
+					EE851D4D183BC80E00A7BD27 = {
+						TestTargetID = EE851D2C183BC80D00A7BD27;
+					};
+				};
+			};
+			buildConfigurationList = EE851D28183BC80D00A7BD27 /* Build configuration list for PBXProject "AlertShortkut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE851D24183BC80C00A7BD27;
+			productRefGroup = EE851D2E183BC80D00A7BD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE851D2C183BC80D00A7BD27 /* AlertShortkut */,
+				EE851D4D183BC80E00A7BD27 /* AlertShortkutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE851D2B183BC80D00A7BD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D49183BC80E00A7BD27 /* Images.xcassets in Resources */,
+				EE851D3B183BC80D00A7BD27 /* InfoPlist.strings in Resources */,
+				EE851D44183BC80E00A7BD27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE851D4C183BC80E00A7BD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D5A183BC80F00A7BD27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE851D29183BC80D00A7BD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D47183BC80E00A7BD27 /* ViewController.m in Sources */,
+				EE851D41183BC80D00A7BD27 /* AppDelegate.m in Sources */,
+				EE851D3D183BC80D00A7BD27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE851D4A183BC80E00A7BD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE851D5C183BC80F00A7BD27 /* AlertShortkutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE851D54183BC80E00A7BD27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE851D2C183BC80D00A7BD27 /* AlertShortkut */;
+			targetProxy = EE851D53183BC80E00A7BD27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE851D39183BC80D00A7BD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE851D3A183BC80D00A7BD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE851D42183BC80E00A7BD27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE851D43183BC80E00A7BD27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE851D58183BC80F00A7BD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE851D59183BC80F00A7BD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE851D5D183BC80F00A7BD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE851D5E183BC80F00A7BD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE851D60183BC80F00A7BD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertShortkut/AlertShortkut-Prefix.pch";
+				INFOPLIST_FILE = "AlertShortkut/AlertShortkut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE851D61183BC80F00A7BD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertShortkut/AlertShortkut-Prefix.pch";
+				INFOPLIST_FILE = "AlertShortkut/AlertShortkut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE851D63183BC80F00A7BD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertShortkut.app/AlertShortkut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertShortkut/AlertShortkut-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlertShortkutTests/AlertShortkutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE851D64183BC80F00A7BD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertShortkut.app/AlertShortkut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertShortkut/AlertShortkut-Prefix.pch";
+				INFOPLIST_FILE = "AlertShortkutTests/AlertShortkutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE851D28183BC80D00A7BD27 /* Build configuration list for PBXProject "AlertShortkut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE851D5D183BC80F00A7BD27 /* Debug */,
+				EE851D5E183BC80F00A7BD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE851D5F183BC80F00A7BD27 /* Build configuration list for PBXNativeTarget "AlertShortkut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE851D60183BC80F00A7BD27 /* Debug */,
+				EE851D61183BC80F00A7BD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE851D62183BC80F00A7BD27 /* Build configuration list for PBXNativeTarget "AlertShortkutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE851D63183BC80F00A7BD27 /* Debug */,
+				EE851D64183BC80F00A7BD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE851D25183BC80D00A7BD27 /* Project object */;
+}
