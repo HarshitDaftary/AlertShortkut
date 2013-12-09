@@ -21,6 +21,7 @@
 		EE851D52183BC80E00A7BD27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE851D34183BC80D00A7BD27 /* UIKit.framework */; };
 		EE851D5A183BC80F00A7BD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE851D58183BC80F00A7BD27 /* InfoPlist.strings */; };
 		EE851D5C183BC80F00A7BD27 /* AlertShortkutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D5B183BC80F00A7BD27 /* AlertShortkutTests.m */; };
+		EE851D67183BCA8700A7BD27 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = EE851D66183BCA8700A7BD27 /* Alerts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EE851D57183BC80F00A7BD27 /* AlertShortkutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertShortkutTests-Info.plist"; sourceTree = "<group>"; };
 		EE851D59183BC80F00A7BD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE851D5B183BC80F00A7BD27 /* AlertShortkutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertShortkutTests.m; sourceTree = "<group>"; };
+		EE851D65183BCA8700A7BD27 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		EE851D66183BCA8700A7BD27 /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		EE851D36183BC80D00A7BD27 /* AlertShortkut */ = {
 			isa = PBXGroup;
 			children = (
+				EE851D65183BCA8700A7BD27 /* Alerts.h */,
+				EE851D66183BCA8700A7BD27 /* Alerts.m */,
 				EE851D3F183BC80D00A7BD27 /* AppDelegate.h */,
 				EE851D40183BC80D00A7BD27 /* AppDelegate.m */,
 				EE851D42183BC80E00A7BD27 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				EE851D47183BC80E00A7BD27 /* ViewController.m in Sources */,
 				EE851D41183BC80D00A7BD27 /* AppDelegate.m in Sources */,
+				EE851D67183BCA8700A7BD27 /* Alerts.m in Sources */,
 				EE851D3D183BC80D00A7BD27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
