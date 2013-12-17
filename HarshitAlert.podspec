@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "AlertShortkut"
+  s.name         = "HarshitAlert"
   s.version      = "1.0"
   s.summary      = "A custom Alert and Actionsheet with block implementation."
   s.homepage     = "http://twitter.com/daftaryharshit"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     :tag => "1.0"
   }
 
-  s.platform     = :ios, '4.0'
-  s.source_files = '*.{h,m}'
+  s.platform     = :ios, '5.0'
+  s.source_files = 'AlertShortkut'
   s.requires_arc = true
 end
