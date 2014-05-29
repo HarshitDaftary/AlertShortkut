@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   }
 
   s.platform     = :ios, '5.0'
-  s.source_files = 'AlertShortkut'
+  s.source_files = 'AlertShortkut/Alerts.{h,m}'
   s.requires_arc = true
 end
